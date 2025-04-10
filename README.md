@@ -1,1 +1,1 @@
-# -economy-rudn
+# economics-rudn
