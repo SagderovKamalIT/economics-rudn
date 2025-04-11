@@ -1,0 +1,44 @@
+body {
+  font-family: 'TT Travels', sans-serif;
+}
+
+.container { 
+  @include min-max(320px, 100%); 
+}
+
+
+.wrap {
+  @include min-max(320px, 1170px);
+  width: 100%;
+  padding: 0 60px;
+}
+
+body, 
+html {
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  color: $white;
+  margin-bottom: 45px;
+}
+
+p, 
+span,
+a {
+  color: $white;
+}
+
+a {
+  text-decoration: none;
+ 
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+}
+

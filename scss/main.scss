@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@import 'reset';
+@import 'variables';
+@import 'fonts';
+@import 'mixins';
+@import 'core';
+
+@import 'blocks/header.scss';
+@import 'blocks/intro.scss';
+@import 'blocks/what.scss';
+@import 'blocks/vision.scss';

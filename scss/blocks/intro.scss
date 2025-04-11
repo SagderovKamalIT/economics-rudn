@@ -1,0 +1,68 @@
+.intro{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  position: relative;
+  background-size: cover;
+  background-image: 
+  url(/assets/img/intro-img.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 213px;
+  padding-bottom: 108px;
+  background-color: $pearl-black;
+
+
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+    margin-bottom: 57px;
+  }
+
+  &__link-icon.icon {
+    background-image: url(/assets/icons/economics-icon.png);
+  }
+
+  &__link-icon {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 50px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+  }
+
+
+  &__link-head {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+  }
+
+  &__head-main {
+    font-size: 64px;
+    text-transform: uppercase;
+    line-height: 77px;
+    margin-bottom: 45px;
+  }
+
+  &__paragraph {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  &__icon-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+}
+
+
+
