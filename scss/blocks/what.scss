@@ -1,0 +1,13 @@
+.what {
+  background-image: url(/assets/img/background-gradient.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+  &__text {
+    padding: 79px 0;
+  font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+  }
+}
