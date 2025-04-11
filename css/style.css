@@ -1,0 +1,274 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "TT Travels";
+  src: url("../fonts/TTTravels-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TT Travels";
+  src: url("../fonts/TTTravels-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TT Travels";
+  src: url("../fonts/TTTravels-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TT Travels";
+  src: url("../fonts/TTTravels-DemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TT Travels";
+  src: url("../fonts/TTTravels-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "TT Travels", sans-serif;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.wrap {
+  min-width: 320px;
+  max-width: 1170px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 60px;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 45px;
+}
+
+p,
+span,
+a {
+  color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.header {
+  background: rgba(0, 0, 0, 0.35);
+  padding-top: 40px;
+  padding-bottom: 28px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.heder__logo {
+  width: 149px;
+  height: 50px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  background-size: cover;
+  background-image: url(/assets/img/intro-img.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 213px;
+  padding-bottom: 108px;
+  background-color: #161A22;
+}
+.intro__link {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+  margin-bottom: 57px;
+}
+.intro__link-icon.icon {
+  background-image: url(/assets/icons/economics-icon.png);
+}
+.intro__link-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.intro__link-head {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 700;
+}
+.intro__head-main {
+  font-size: 64px;
+  text-transform: uppercase;
+  line-height: 77px;
+  margin-bottom: 45px;
+}
+.intro__paragraph {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.intro__icon-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.what {
+  background-image: url(/assets/img/background-gradient.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.what__text {
+  padding: 79px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.vision {
+  background: #161A22;
+  padding: 88px 0;
+}
+.vision__title {
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 42px;
+}
+.vision__icon {
+  width: 70px;
+  height: auto;
+}
+.vision__items {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  gap: 36px 40px;
+  margin-bottom: 52px;
+}
+.vision__item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 15px 30px;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+}
+.vision__item-full {
+  grid-column: 1/3;
+  width: 85%;
+}
+.vision__text {
+  color: #FFFFFF;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 38px;
+}
+.vision__footer {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+}
+.vision__footer-icon {
+  width: 100px;
+  height: 100px;
+}
+.vision__footer-text {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+/*# sourceMappingURL=style.css.map */
