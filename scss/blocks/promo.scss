@@ -1,0 +1,38 @@
+.program-promo {
+  position: relative;
+  padding: 60px 0;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 196px;
+    width: 439px;
+    height: 441px;
+    background: url(../../assets/icons/metal-abstraction.svg) no-repeat;
+    background-size: contain;
+    z-index: 1;
+    
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    gap: 63px;
+
+    img {
+      width: 529px;
+      height: auto;
+    }
+
+    p {
+      color: $abyssal;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 38px;
+      padding: 60px 0;
+    }
+  }
+
+
+}

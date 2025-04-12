@@ -5,7 +5,7 @@
   position: relative;
   background-size: cover;
   background-image: 
-  url(/assets/img/intro-img.png);
+  url(../../assets/img/intro-img.png);
   background-repeat: no-repeat;
   background-position: right;
   padding-top: 213px;
@@ -21,7 +21,7 @@
   }
 
   &__link-icon.icon {
-    background-image: url(/assets/icons/economics-icon.png);
+    background-image: url(../../assets/icons/economics-icon.png);
   }
 
   &__link-icon {
