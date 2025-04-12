@@ -1,0 +1,55 @@
+.learn {
+  padding: 80px 0;
+  background: url(../../assets/img/vision-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+
+  &__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: right;
+    margin-bottom: 50px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__item {
+    padding: 10px 40px;
+    background-color: $white;
+    border-radius: 17px;
+  }
+
+  &__item p.learn__block-title {
+    color: $eerie-black;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    margin: 10px 0;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    &-toggle {
+      border: none;
+      outline: none;
+      background-color: $white;
+      padding: 0;
+      cursor: pointer;
+    }
+
+  }
+
+}
