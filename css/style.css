@@ -158,7 +158,7 @@ section {
   justify-content: flex-start;
   position: relative;
   background-size: cover;
-  background-image: url(/assets/icons/intro-img.png);
+  background-image: url(../.././assets/icons/intro-img.png);
   background-repeat: no-repeat;
   background-position: right;
   padding-top: 213px;
