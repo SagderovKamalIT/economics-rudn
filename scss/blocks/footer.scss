@@ -1,0 +1,17 @@
+.footer {
+  padding: 61px 0 46px 0;
+  background: $abyssal;
+
+  &__section {
+    display: flex;
+    justify-content: center;
+
+    &-link {
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 24px;
+    
+    }
+  }
+
+}
