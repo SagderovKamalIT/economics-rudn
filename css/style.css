@@ -118,7 +118,6 @@ h1,
 h2 {
   font-weight: 700;
   color: #FFFFFF;
-  margin-bottom: 45px;
 }
 
 p,
@@ -432,6 +431,127 @@ section {
   font-weight: 400;
   width: 100%;
   color: #171920;
+}
+
+.promo-credit {
+  position: relative;
+  padding: 80px 0;
+  background: url(../../assets/icons/credit-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.promo-credit__container {
+  padding: 0 39px;
+  display: flex;
+  gap: 31px;
+  flex-direction: column;
+  align-items: center;
+}
+.promo-credit__container h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  padding-bottom: 28px;
+}
+.promo-credit__container .promo-credit__title {
+  position: relative;
+  display: inline-block;
+  width: fit-content;
+}
+.promo-credit__container .promo-credit__title img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 212px;
+  height: auto;
+}
+.promo-credit__container p {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43px;
+  text-align: center;
+}
+.promo-credit button {
+  display: inline-block;
+  padding: 16px 44px;
+  background-color: #FFFFFF;
+  border-radius: 42px;
+  border: none;
+  font-style: inherit;
+}
+.promo-credit a {
+  color: #000000;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  text-decoration: underline;
+}
+
+.contacts {
+  padding: 54px 0 36px 0;
+  background: #171920;
+}
+.contacts h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-bottom: 22px;
+}
+.contacts__sections {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.contacts__section {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  text-decoration: none;
+}
+.contacts__section-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 59px;
+  height: 60px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.contacts__section-text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.phone {
+  background-image: url("../../assets/icons/phone.svg");
+}
+
+.mail {
+  background-image: url(../../assets/icons/mail.svg);
+}
+
+.place {
+  background-image: url(../../assets/icons/map.svg);
+}
+
+.footer {
+  padding: 61px 0 46px 0;
+  background: #171920;
+}
+.footer__section {
+  display: flex;
+  justify-content: center;
+}
+.footer__section-link {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
