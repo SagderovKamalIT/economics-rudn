@@ -50,6 +50,7 @@ line-height: 38px;
   &__footer-icon {
     width: 100px;
     height: 100px;
+    transform: rotate(180deg);
   }
 
   &__footer-text {
