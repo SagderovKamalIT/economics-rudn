@@ -158,7 +158,7 @@ section {
   justify-content: flex-start;
   position: relative;
   background-size: cover;
-  background-image: url("/assets/icons/intro-img.png");
+  background-image: url("/economics-rudn/assets/icons/intro-img.png");
   background-repeat: no-repeat;
   background-position: right;
   padding-top: 213px;
@@ -172,7 +172,7 @@ section {
   margin-bottom: 57px;
 }
 .intro__link-icon.icon {
-  background-image: url("/assets/icons/economics-icon.png");
+  background-image: url("/economics-rudn/assets/icons/economics-icon.png");
 }
 .intro__link-icon {
   display: flex;
@@ -208,7 +208,7 @@ section {
 
 .what {
   position: relative;
-  background-image: url("/assets/icons/background-gradient.png");
+  background-image: url("/economics-rudn/assets/icons/background-gradient.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -220,7 +220,7 @@ section {
   top: -219px;
   width: 736px;
   height: 900px;
-  background: url("/assets/icons/metal-icon.svg") no-repeat;
+  background: url("/economics-rudn/assets/icons/metal-icon.svg") no-repeat;
   background-size: contain;
   z-index: 1;
 }
@@ -295,7 +295,7 @@ section {
   top: 196px;
   width: 439px;
   height: 441px;
-  background: url("/assets/icons/metal-abstraction.svg") no-repeat;
+  background: url("/economics-rudn/assets/icons/metal-abstraction.svg") no-repeat;
   background-size: contain;
   z-index: 1;
 }
@@ -318,7 +318,7 @@ section {
 
 .learn {
   padding: 80px 0;
-  background: url("/assets/icons/vision-background.png");
+  background: url("/economics-rudn/assets/icons/vision-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -372,7 +372,7 @@ section {
 .profession::after {
   content: "";
   position: absolute;
-  background: url("/assets/icons/flower.svg") no-repeat;
+  background: url("/economics-rudn/assets/icons/flower.svg") no-repeat;
   height: 200px;
   width: 200px;
   bottom: 10px;
@@ -436,7 +436,7 @@ section {
 .promo-credit {
   position: relative;
   padding: 80px 0;
-  background: url("/assets/icons/credit-background.png");
+  background: url("/economics-rudn/assets/icons/credit-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -529,15 +529,15 @@ section {
 }
 
 .phone {
-  background-image: url("/assets/icons/phone.svg");
+  background-image: url("/economics-rudn/assets/icons/phone.svg");
 }
 
 .mail {
-  background-image: url("/assets/icons/mail.svg");
+  background-image: url("/economics-rudn/assets/icons/mail.svg");
 }
 
 .place {
-  background-image: url("/assets/icons/map.svg");
+  background-image: url("/economics-rudn/assets/icons/map.svg");
 }
 
 .footer {
