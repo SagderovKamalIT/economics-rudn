@@ -6,7 +6,7 @@
 &::after {
   content: "";
   position: absolute;
-  background: url('/economics-rudn/assets/icons/flower.svg') no-repeat;
+  background: url('#{$base-url}/assets/icons/flower.svg') no-repeat;
   height: 200px;
   width: 200px;
   bottom: 10px;

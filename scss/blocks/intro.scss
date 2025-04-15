@@ -4,7 +4,7 @@
   justify-content: flex-start; 
   position: relative;
   background-size: cover;
-  background-image: url('/economics-rudn/assets/icons/intro-img.png');
+  background-image: url('#{$base-url}/assets/icons/intro-img.png');
   background-repeat: no-repeat;
   background-position: right;
   padding-top: 213px;
@@ -20,7 +20,7 @@
   }
 
   &__link-icon.icon {
-    background-image: url('/economics-rudn/assets/icons/economics-icon.png');
+    background-image: url('#{$base-url}/assets/icons/economics-icon.png');
   }
 
   &__link-icon {
