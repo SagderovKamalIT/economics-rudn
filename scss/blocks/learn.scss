@@ -26,6 +26,52 @@
     border-radius: 17px;
   }
 
+  &__content {
+   
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+  }
+
+  &__content.active {
+    max-height: 180px; 
+    opacity: 1;
+  }
+
+  &__content-list {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding-top: 14px;
+    border-top: 1px solid $eerie-black;
+  }
+
+  &__content-item {
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+
+    img {
+      width: 27px;
+      height: 27px;
+    }
+
+    span {
+      font-weight: 400;
+font-size: 20px;
+color: $eerie-black;
+    }
+  }
+
+  &__block-toggle-img {
+    transition: transform 0.3s ease;
+
+    &.rotate {
+      transform: rotate(180deg);
+    }
+  }
+
   &__item p.learn__block-title {
     color: $eerie-black;
     font-size: 24px;

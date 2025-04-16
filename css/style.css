@@ -306,7 +306,7 @@ section {
 }
 .program-promo__container img {
   width: 529px;
-  height: auto;
+  height: 353px;
 }
 .program-promo__container p {
   color: #171920;
@@ -340,6 +340,43 @@ section {
   padding: 10px 40px;
   background-color: #FFFFFF;
   border-radius: 17px;
+}
+.learn__content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+.learn__content.active {
+  max-height: 180px;
+  opacity: 1;
+}
+.learn__content-list {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding-top: 14px;
+  border-top: 1px solid #191919;
+}
+.learn__content-item {
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+}
+.learn__content-item img {
+  width: 27px;
+  height: 27px;
+}
+.learn__content-item span {
+  font-weight: 400;
+  font-size: 20px;
+  color: #191919;
+}
+.learn__block-toggle-img {
+  transition: transform 0.3s ease;
+}
+.learn__block-toggle-img.rotate {
+  transform: rotate(180deg);
 }
 .learn__item p.learn__block-title {
   color: #191919;
@@ -379,6 +416,26 @@ section {
   right: 0;
   background-size: contain;
   z-index: 1;
+}
+.profession__section {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.profession__section-title {
+  position: relative;
+  padding: 21px 30px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  border-radius: 20px;
+  width: 43%;
+  margin-bottom: 80px;
+  border: 1px solid #FFFFFF;
+}
+.profession__section-image {
+  width: 95px;
+  height: 95px;
 }
 .profession__title {
   position: relative;
